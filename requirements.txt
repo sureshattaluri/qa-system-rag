@@ -4,3 +4,4 @@ rich==13.9.2
 urllib3==1.26.20
 pandas==2.2.3
 pillow==11.0.0
+flask==3.0.3

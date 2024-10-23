@@ -41,7 +41,8 @@ build: install
 # Run the application
 .PHONY: run
 run: install
-	$(PYTHON) src/qa-system-rag/main.py $(ARGS)
+	# Set the PYTHONPATH environment variable to include the src directory
+	PYTHONPATH=$(PYTHONPATH):$(shell pwd)/src $(PYTHON) -m qa_system_rag.main
 
 # Run tests
 .PHONY: test
