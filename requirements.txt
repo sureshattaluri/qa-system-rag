@@ -5,3 +5,9 @@ urllib3==1.26.20
 pandas==2.2.3
 pillow==11.0.0
 flask==3.0.3
+langchain==0.3.4
+langchain-community==0.3.3
+langchain-chroma==0.1.4
+langchain-google-vertexai==2.0.5
+langgraph==0.2.39
+unstructured==0.16.1

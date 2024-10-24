@@ -42,7 +42,7 @@ build: install
 .PHONY: run
 run: install
 	# Set the PYTHONPATH environment variable to include the src directory
-	PYTHONPATH=$(PYTHONPATH):$(shell pwd)/src $(PYTHON) -m qa_system_rag.main
+	. .env_export;PYTHONPATH=$(PYTHONPATH):$(shell pwd)/src $(PYTHON) -m qa_system_rag.main
 
 # Run tests
 .PHONY: test
