@@ -1,4 +1,6 @@
-from src.qa_system_rag.app.api import app
+from src.qa_system_rag.app import create_app
+
+app = create_app()
 
 if __name__ == "__main__":
     app.run(debug=True)

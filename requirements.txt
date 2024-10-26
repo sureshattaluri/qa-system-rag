@@ -11,3 +11,6 @@ langchain-chroma==0.1.4
 langchain-google-vertexai==2.0.5
 langgraph==0.2.39
 unstructured==0.16.1
+langchain-google-community==2.0.1
+flask-restx==1.3.0
+chainlit==1.3.0
